@@ -6,8 +6,6 @@ export function checkAuth(request, env) {
   const header = request.headers.get('Authorization') || '';
   const token = header.startsWith('Bearer ') ? header.slice(7) : '';
   if (!env.APP_PASSWORD) {
-    // Fail safe: if no password is configured, deny everything rather
-    // than silently running open.
     return false;
   }
   return token === env.APP_PASSWORD;

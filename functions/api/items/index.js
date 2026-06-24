@@ -1,4 +1,4 @@
-import { checkAuth, unauthorized } from './_auth.js';
+import { checkAuth, unauthorized } from '../auth-helpers.js';
 
 export async function onRequestGet(context) {
   const { request, env } = context;

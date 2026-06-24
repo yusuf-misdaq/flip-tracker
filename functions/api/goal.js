@@ -1,4 +1,4 @@
-import { checkAuth, unauthorized } from '../_auth.js';
+import { checkAuth, unauthorized } from './auth-helpers.js';
 
 // Goals are tracked per-month so increasing the target later doesn't
 // rewrite history. goal_history stores { "2026-07": 1000, "2026-08": 1500 }

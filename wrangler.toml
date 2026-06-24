@@ -5,4 +5,4 @@ compatibility_date = "2026-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "flip-tracker-db"
-database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
+database_id = "8ba5c313-82ba-4937-af72-4d1492091bf3"
